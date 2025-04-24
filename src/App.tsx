@@ -114,6 +114,8 @@ const projects = [
   }
 ];
 
+
+
 function ProjectCard({ project }: { project: typeof projects[0] }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
